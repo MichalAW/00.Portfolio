@@ -40,6 +40,11 @@ p {
 	border-radius: 20px;
 }
 
+.primary-blue-button {
+	text-align: center;
+	margin-top: 30px;
+}
+
 .primary-blue-button a {
 	display: inline-block;
 	background-color: #33c1cf;
