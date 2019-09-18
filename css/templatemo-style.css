@@ -21,10 +21,31 @@ p {
 	line-height: 24px;
 }
 
+.container-thumb {
+	padding: 10px;
+}
+
+.contener-span {
+	border: 0.5px solid #33c1cf;
+	border-radius: 20px;
+	padding: 10px;
+	cursor: pointer;
+	background-color: #33c1cf;
+}
+
+.contener-span a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.contener-span a:hover {
+	color: #f7c552;
+}
+
 .parallax-content {
-  width: 100%;
-  min-height: 100vh;
-  background-size: cover;
+	width: 100%;
+	min-height: 100vh;
+	background-size: cover;
 }
 
 .primary-white-button a {
