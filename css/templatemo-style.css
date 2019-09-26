@@ -30,6 +30,7 @@ p {
 }
 
 .contener-span {
+	text-align: center;
 	border: 0.5px solid #33c1cf;
 	border-radius: 20px;
 	padding: 10px;
@@ -391,7 +392,6 @@ bootstrap.min.css:5
 
 
 #testimonial {
-	background-color: #f7c552;
 	text-align: center;
 	padding: 100px 0px;
 }
