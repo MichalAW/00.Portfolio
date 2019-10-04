@@ -2388,6 +2388,8 @@ if (typeof Object.create !== "function") {
         buildPagination : function () {
             var base = this;
 
+            $(".right").click(() => base.onClickRightArrow());
+            $(".left").click(() => base.onClickLeftArrow ());
             base.paginationWrapper = $("<div class=\"owl-pagination\"/>");
             base.owlControls.append(base.paginationWrapper);
 
@@ -2453,6 +2455,16 @@ if (typeof Object.create !== "function") {
                     $(this).addClass("active");
                 }
             });
+        },
+
+        onClickRightArrow : function () {
+            var base = this;
+            base.next();
+        },
+
+        onClickLeftArrow : function () {
+            var base = this;
+            base.prev();
         },
 
         checkNavigation : function () {
@@ -3411,7 +3423,7 @@ if (typeof Object.create !== "function") {
         singleItem : false,
         itemsScaleUp : false,
 
-        slideSpeed : 200,
+        slideSpeed : 500,
         paginationSpeed : 800,
         rewindSpeed : 1000,
 
