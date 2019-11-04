@@ -5,4 +5,4 @@ repo --> https://github.com/MichalAW/00.Portfolio.git
 
 link --> https://michalaw.github.io/00.Portfolio/
 
-04.11.2019 dodane dwie nowe aplikacje, wyszukiwarka książek i tetris gra (do poprawki)
+04.11.2019 dodane trzy nowe aplikacje, wyszukiwarka książek,chat-module i tetris gra (do poprawki)
