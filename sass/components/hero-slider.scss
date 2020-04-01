@@ -284,7 +284,7 @@ Single slide style
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
-.cd-hero-slider h2, .cd-hero-slider p {
+.cd-hero-slider h1, .cd-hero-slider p {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   line-height: 1.2;
   margin: 0 auto 14px;
@@ -292,7 +292,7 @@ Single slide style
   width: 90%;
   max-width: 400px;
 }
-.cd-hero-slider h2 {
+.cd-hero-slider h1 {
   font-size: 2.4rem;
 }
 .cd-hero-slider p {
@@ -347,10 +347,10 @@ Single slide style
   .cd-hero-slider .cd-img-container {
     display: block;
   }
-  .cd-hero-slider h2, .cd-hero-slider p {
+  .cd-hero-slider h1, .cd-hero-slider p {
     max-width: 520px;
   }
-  .cd-hero-slider h2 {
+  .cd-hero-slider h1 {
     font-size: 2.4em;
     font-weight: 300;
   }
@@ -363,10 +363,10 @@ Single slide style
   .cd-hero-slider .cd-half-width {
     padding-top: 250px;
   }
-  .cd-hero-slider h2, .cd-hero-slider p {
+  .cd-hero-slider h1, .cd-hero-slider p {
     margin-bottom: 20px;
   }
-  .cd-hero-slider h2 {
+  .cd-hero-slider h1 {
     font-size: 3.2em;
   }
   .cd-hero-slider p {
@@ -425,7 +425,7 @@ Single slide animation
     -moz-transition: opacity 0.4s 0.4s, -moz-transform 0.5s 0.4s;
     transition: opacity 0.4s 0.4s, transform 0.5s 0.4s;
   }
-  .cd-hero-slider .cd-full-width h2,
+  .cd-hero-slider .cd-full-width h1,
   .cd-hero-slider .cd-full-width p,
   .cd-hero-slider .cd-full-width .cd-btn {
     opacity: 0;
@@ -435,7 +435,7 @@ Single slide animation
     -o-transform: translateX(100px);
     transform: translateX(100px);
   }
-  .cd-hero-slider .move-left .cd-full-width h2,
+  .cd-hero-slider .move-left .cd-full-width h1,
   .cd-hero-slider .move-left .cd-full-width p,
   .cd-hero-slider .move-left .cd-full-width .cd-btn {
     opacity: 0;
@@ -445,7 +445,7 @@ Single slide animation
     -o-transform: translateX(-100px);
     transform: translateX(-100px);
   }
-  .cd-hero-slider .selected .cd-full-width h2,
+  .cd-hero-slider .selected .cd-full-width h1,
   .cd-hero-slider .selected .cd-full-width p,
   .cd-hero-slider .selected .cd-full-width .cd-btn {
     /* this is the visible slide */
@@ -456,7 +456,7 @@ Single slide animation
     -o-transform: translateX(0);
     transform: translateX(0);
   }
-  .cd-hero-slider li.is-moving .cd-full-width h2,
+  .cd-hero-slider li.is-moving .cd-full-width h1,
   .cd-hero-slider li.is-moving .cd-full-width p,
   .cd-hero-slider li.is-moving .cd-full-width .cd-btn {
     /* this is the slide moving outside the viewport 
@@ -465,7 +465,7 @@ Single slide animation
     -moz-transition: opacity 0s 0.5s, -moz-transform 0s 0.5s;
     transition: opacity 0s 0.5s, transform 0s 0.5s;
   }
-  .cd-hero-slider li.selected h2 {
+  .cd-hero-slider li.selected h1 {
     -webkit-transition: opacity 0.4s 0.2s, -webkit-transform 0.5s 0.2s;
     -moz-transition: opacity 0.4s 0.2s, -moz-transform 0.5s 0.2s;
     transition: opacity 0.4s 0.2s, transform 0.5s 0.2s;
